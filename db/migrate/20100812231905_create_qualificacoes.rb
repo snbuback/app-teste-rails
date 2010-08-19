@@ -8,8 +8,6 @@ class CreateQualificacoes < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index (:qualificacoes, :cliente_id)
-    add_index (:qualificacoes, :restaurante_id)
   end
 
   def self.down
